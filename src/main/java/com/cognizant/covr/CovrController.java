@@ -6,24 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
 
-@RestController("")
+@RestController
 public class CovrController {
 
 
-    @GetMapping
-    Iterable<?>  list()
-    {
-
-    return Collections.emptyList();
-
-
-
-
-
-
-
-
-
+    @GetMapping("/")
+    Iterable<?> list() {
+        return Collections.emptyList();
 
 
     }
